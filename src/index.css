@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
 body {
-  background: #333333;
+  background: #e2e2e2;
   font-family: sans-serif;
 }
 
@@ -7,19 +9,19 @@ body {
   width: 400px;
   height: 300px;
   margin: 200px auto;
-  background: #ffffff;
+  background: linear-gradient(to right, #8942A8, #BB3830);
   border-radius: 20px;
   box-sizing: border-box;
   padding-top: 30px;
+  box-shadow: 10px 10px 10px 0px rgba(74,74,74,1);
 }
 
 input {
   margin: 20px 17% 0;
   width: 250px;
   height: 30px;
-  border: 2px solid #440083;
-  background: #333333;
-  color: white;
+  border: none;
+  background: white;
   border-radius: 10px;
   padding-left: 10px;
   outline: none;
@@ -27,7 +29,7 @@ input {
   transition: 0.5s;
 }
 
-input:hover {
+input:focus {
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -40,8 +42,9 @@ input:hover {
 }
 
 #display {
-  color: #440083;
+  color: #ffd477;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   margin: 20px;
+  font-family: 'Kaushan Script', cursive;
 }

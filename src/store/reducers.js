@@ -11,6 +11,6 @@ export const rootReducer = (state = initialState, action) => {
             return { ...state, firstName: action.payload }
         case ACTION_CHANGE_SECOND_NAME:
             return { ...state, secondName: action.payload }
+        default: return state
     }
-    return state
 }
